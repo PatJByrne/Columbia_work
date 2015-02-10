@@ -1,0 +1,124 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={210mm,297mm},
+ left=20mm,
+ right=20mm,
+ top=20mm,
+ bottom=20mm,
+ }
+
+
+\begin{document}
+\begin{center}
+\begin{LARGE}
+Notes on the Creation and Calibration of the HBT-EP TF Rogowski\\
+\end{LARGE}
+\begin{large}
+\vspace{0.25 in}
+Patrick Byrne \& Nick Rivera\\
+Columbia University Plasma Lab\\
+Jan. 6 2014\\
+\end{large}
+\end{center}
+\vspace{0.25 in}
+\setstretch{1.25}
+\begin{large}
+\par
+A new Rogowski coil along with an integrator and amplifier circuit, have been constructed and installed on the tokamak to measure the TF current, and from that to determine the TF field, assuming a pure solenoidal field.  The field determined by this rogowski is consistently 15\% larger than that given by the pre-existing TF probe.
+\end{large}
+\vspace{0.25in}
+\begin{center}
+\begin{LARGE}
+Basic Operation of the TF Rogowski
+\end{LARGE}
+\end{center}
+\par
+\begin{large}
+The TF Rogowski is 42 inches long, wound with 30 AWG wire, with a winding pitch of 25.4 turns/inch.  The diameter of the coil is 6.89mm, for a total NA of 3.98cm$^2$. The length of coax cabling is 40 feet, but now that the location and mounting of the coil is fixed, this will probably be shortened. In normal operation it is wrapped around one of the twenty TF cases.  The coil is used to determine the current passing through the center stack, which, assuming a perfectly solenoidal current, gives a field of the form: $$B_T(r) = \frac{\mu_0}{2 \pi r} I_{center\_stack}$$
+\par
+The signal from the Rogowski is integrated by an RC circuit consisting of a 1.13$\mu F$ and a 4.67$M\Omega$ resistor, for a 5.28s RC time.  The voltage across the capacitor is measured, and the partially integrated signal is fully integrated with the equation: 
+$$I_{meas}(t) = RCV(t)+\int_{t_0}^t V(\tau)d\tau$$
+\par
+The frequency response of the Rogowski/integrator circuit is:
+$$ H = \frac{Z_{integrator}+Z_{rogowski}(1+ \frac{Z_{integrator}}{Z_{shunt}})}{Z_{cap}}$$
+$$ H = i\omega C_{int}(\frac{1}{i\omega C_{int}}+ R_{int} + R_{rog}+i\omega L_{rog}(1+ \frac{1}{i\omega C_{int} R_{shunt}}))$$
+$$H = (1 +\omega^2C_{int} L_{rog}+i\omega C_{int}(R_{int} + R_{rog})+\frac{1}{R_{shunt}})$$
+
+The TF rogowski was calibrated against a commercially available Pearson Rogowski, which was itself calibrated using a shunt resistor.  The Pearson has a sensitivity of <blank> and a saturation It of 300 As. This Pearson current monitor is used to measure the VF coil's current, so the Rogowski was calibrated on that coil.  The Rogowski was wrapped three times around the upper outer VF bundle, which contains 4 co-directed coils.  This means that the measured voltage on the rogowski output is boosted by a factor of 12, to reduce the effect of systemic noise.\par
+Shot(s) 87831-87834 were used to calibrate the VF rogowski.  -31 to -33 are VFE only shots, while -34 is a VFSt/VFE shot.  As can be seen, the influence of the integrated term in measuring current on the timescale of the F is negligible.  A (very) rough estimate for the relative contributions of the terms at any given time is: $$\frac{2RCV(t)}{\Delta t(V(t)-V(t_0))}$$
+with $\Delta t$ being, at maximum, .025, and 2RC being 10, or - at least - 400 times as large.  This is clear in Figure \ref{raw_sigs}.  A zoom in of the integral term, as compared to the noise level, is visible in Figure \ref{noise}
+\par
+The python code VF\_cal2.py is used to find the calibration gain (~ 7400) to be used from the VF training shots.  It is then simple enough to convert the coil signal of a TF shot into current.  The coil is wrapped \textbf{once} around a single TF case, so the measured signal must be multiplied by 20 to determine the total current passing through the center stack.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width = 140mm]{../Desktop/integrator_operation.png}\caption{raw signal from shot 87831}
+\label{raw_sigs}
+\end{figure}
+\begin{figure}[h!]
+\centering
+\includegraphics[width = 140mm]{../Desktop/Rogowski_noise.png}\caption{raw signal from shot 87831}
+\label{noise}
+\end{figure}
+
+\newpage
+\par
+The bet fit reconstructions are rather good, although there is a slight amount of lag in the coil's measurement as compared to the Pearson. (Figure \ref{training_shots}). This is more obvious in the case of the full VF shot, where current at startup is several hundred Amperes lower according to the Rogowski. (Figure \ref{qualifying_shot}) 
+\begin{figure}[h!]
+\centering
+\includegraphics[width = 150mm]{../Desktop/training_shots.png}\caption{Pearson (cyan) and TF rogowski (magenta) measurements of VF current}
+\label{training_shots}
+\end{figure}
+\begin{figure}[h!]
+\centering
+\includegraphics[width = 150mm]{../Desktop/qualifying_shot.png}\caption{Pearson (blue) and TF rogowski (green) measurements of VF current}
+\label{qualifying_shot}
+\end{figure}
+\newpage
+\par
+The Rogowski is seen to be almost linear ($<2\%$ deviation)in the range of available VF Start bank voltages (Figure \ref{calibration_nonlinearity}). The raw signal shows a strong negative spike when the VF start fires (Figure(\ref{qualifying_shot_subzoom}), but it does not seem to be an influence.  Despite persisting for only one time sample, this spike is large enough (-3V) to impact the integral term.  However, this spike only affects the integral to a degree consistent with a -4 Amp displacement of the reconstructed signal.
+\begin{figure}[h!]
+\centering
+\includegraphics[width = 150mm]{../Desktop/Calibration_non_linearity.png}\caption{Raw Rogowski signal (green) and Raw signal Integral (different y-scale, blue)}
+\label{calibration_nonlinearity}
+\end{figure}
+\begin{figure}[h!]
+\centering
+\includegraphics[width = 150mm]{../Desktop/qualifying_shot_subzoom.png}\caption{Raw Rogowski signal (green) and Raw signal Integral (different y-scale, blue)}
+\label{qualifying_shot_subzoom}
+\end{figure}
+\par
+The results have shown (Figures \ref{btf} \& \ref{btf_zoom}) the coil to overreport the TF field during most of the shot, though there is a late time period where the signals converge and cross.  During the life of the plasma, however, the signals are steady at 15 - 18\% higher than that given by the TF probe.
+\begin{figure}[h!]
+\centering
+\includegraphics[width = 150mm ]
+{../Desktop/B_tf.png}\caption{Rogowski signals (blue, red, magenta) vs TF probe signals(green, cyan, yellow)}
+\label{btf}
+\end{figure}
+\begin{figure}[h!]
+\centering
+\includegraphics[width = 150mm]{../Desktop/B_tf_zoom.png}\caption{Rogowski signals (blue, red, magenta) vs TF probe signals(green, cyan, yellow) zoomed to the plasma timescale}
+\label{btf_zoom}
+\end{figure}
+\pagebreak
+Overreporting is qualitatively similar to that seen during the 'Big Rogowski' project, for that instrument the disagreement varied from 16\% to almost 0, depending on TF voltage, while this coil is steadier across different TF levels, suggesting that the results may be real.
+\par
+The below plots show the different levels of disagreement for different voltage levels, and across time.
+\begin{figure}[h!]
+\includegraphics[width = \textwidth]{../Desktop/tf_disagreement.png}\caption{Rogowski signals (blue, red, magenta) vs TF probe signals(green, cyan, yellow)}
+\label{tf_disagreement}
+\end{figure}
+\begin{figure}[h!]
+\includegraphics[width = \textwidth]{../Desktop/tf_disagreement_zoom.png}\caption{Rogowski signals (blue, red, magenta) vs TF probe signals(green, cyan, yellow) zoomed to the plasma timescale}
+\label{tf_disagreement_zoom}
+\end{figure}
+\par
+One unexamined source of the underreporting is that the TF probe sits at the center of the 'bulge' of the TF ripple, while our calculation of the field from the TF current assumes perfect solenoidicity of field.
+\end{large}
+\end{document}
