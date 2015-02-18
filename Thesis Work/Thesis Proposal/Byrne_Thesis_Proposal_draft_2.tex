@@ -55,7 +55,7 @@
 
 
 \begin{abstract}
-Magneto-hydrodynamic (MHD) instabilities can limit the performance of tokamak plasmas, and control of MHD instabilities depends on accurate measurement and understanding of mode structure.  Until the present time, the HBT-EP plasma has been circular in cross section, while the main thrust of research towards a fusion reactor is focused on plasmas that are shaped.  Calculations of ideal MHD instability predict modifications to the mode structure when HBT-EP discharges are shaped\cite{Maurer}.  This dissertation investigates the effect by using a newly installed poloidal field coil which shapes the high field side of the plasma, and can impose a poloidal field null.  Initial measurements of shaped plasmas show a modification to the mode structure consistent with predictions.
+Magneto-hydrodynamic (MHD) instabilities can limit the performance of tokamak plasmas, and control of MHD instabilities depends on accurate measurement and understanding of mode structure.  Until the present time, the HBT-EP plasma has been circular in cross section, while the main thrust of research towards a fusion reactor is focused on plasmas that are shaped.  Calculations of ideal MHD instability predict modifications to the mode structure when HBT-EP discharges are shaped\cite{Maurer}.  This dissertation investigates the effect by using a newly installed poloidal field coil which shapes the high field side of the plasma, and can impose a poloidal field null.  Initial measurements of shaped plasmas show a modification to the mode structure consistent with predictions, which will be probed further using resonant magnetic perturbations (RMPs).
 \end{abstract}
 
 \maketitle
@@ -63,47 +63,63 @@ Magneto-hydrodynamic (MHD) instabilities can limit the performance of tokamak pl
 The kink mode is a performance limiting, disruptive MHD instability\cite{Strait}.  These modes can be driven by either pressure or current gradients, and they have a variety of mode structures depending upon flux surface shape and current and pressure profiles.  The external kink mode is seen in all tokamaks at sufficiently high plasma pressure.  Under certain conditions, the kink mode presents as the resistive wall mode (RWM) as nearby conducting structures' eddy currents limit the growth rate to their resistive time scale.  If the kink has a high rotational frequency, the eddy decay will be negligible and the mode behavior will approach that of an ideal, wall-stabilized, kink.  Kink instabilities are characterized by a dominant poloidal and toroidal wave numbers m and n.  HBT-EP generally presents low-n kinks, the strongest of which are those with ratio m/n just below the helicity of the edge magnetic field\par
 	Shaping a plasma has been shown to allow access to higher $\beta$ operating regimes as well as easier access to high confinement regimes (H-mode)\citep{Lazarus, Keilhacker_HMode}. Shaping a plasma is also necessary to direct the large heat flux of a fusion plasma into a divertor designed to safely accept it.  As such, most modern high-performance tokamaks operate diverted, as will ITER.  However, as the equilibrium surface of the plasma changes, so will the shape, and possibly the behavior of the unstable kink mode.  Simulations of ITER-like plasmas have predicted a range of effects on the kink mode in an H-mode diverted plasma, from a strong suppressive effect on current driven kinks coupled with the growth of a distinct new kink/tearing mode\cite{Huysmans} to a change in the mode shape and stability as edge q* varies\cite{Maurer}.\par
 %This effect can be seen in a current-driven model as well.  Figure \ref{DCON_dW} a) shows how the two least stable mode energies vary with q*, which is varied by changing plasma current, in the presence and absence of shaping.  q* is calculated on HBT-EP using MR and Ip measurements and a circular, cylindrical approximation, which is invalid in the case of a diverted plasma, as seen in b). q* is calculated in this case by using the (1+$\kappa$) correction for an elongated plasma and is seen to be quite different than our equilibrium measurements and circular approximation would suggest.  Mode mixing occurs in limited plasmas at integer q* as the least stable mode changes shape.  We would expect to see a clean mode with a narrow FFT spectrum when the two modes are widely separated, and a mixed mode with a broad spectrum when they come together.  This would be difficult in circular limited plasmas, as both modes are expected to be stable at the crossover.  By contrast, in diverted plasmas, we see that at low current (high q*) there is an unstable mode and a marginally stable mode, which meets the Boozer criterion for n=1 multimode\cite{Boozer}.  Shaping is seen to change the q* values at which the modes exchange stability, and the n=1 multimode region is seen at a q* of ~2.6, rather than an integer value.  Equilibrium values in 2 a) and b) are chosen such that the the plasma is always diverted.  TokaMac and DCON can not integrate to a separatrix, and output, including q* and mode energetics, is seen to be a weak function of how close to the edge the calculation takes place. Fig 2c), however, shows that even in shaped but limited plasmas, i.e. fully simulated to the last closed flux surface (LCFS), the energetics of an equilibrium are seen to vary with shaping.\par
-		
-\begin{figure}[b]
-	\centering
-\includegraphics[scale=.35]{../Plots/HBT_section_cropped.png}\caption{Section of HBT-EP, shaping coil shown in blue}
-	\label{Coil_HBT_Section}
-	\end{figure}
-		
-\begin{figure*}[htb]
-	\centering
-	\includegraphics[scale=.25]{../Plots/Plasma_with_sensors_FWall_concept_WithCCview.png}
-	\caption{Rendering of the HBT-EP magnetic diagnostics.  Chamber and shell mounted sensor arrays are used to observe and diagnose natural and driven modes MHD.  Passively stabilizing shells and active control coils of various sizes are used to feed back on the modes.  Ferritic sections are retracted for shaping experiments}
-	\label{schematic}
-	\end{figure*}
-	
-\begin{figure*}[t]
-	\centering
-\includegraphics[scale=.4]{../Plots/shot_85388_currents_fields_fluxes_better_aspect_ratio_polarity.png}\caption{HBT-EP shot 85385, including: \\a) Equlibrium measurements of $I_p$, $I_{Shape}$ and MR.\\  b) TokaMac equilibrium reconstruction of flux surfaces, including plasma and coil polarities\\c) Sensor measurements of Bp near the x-point, compared to expected values (dotted lines).\\  Sensor locations are shown in b), traces are color coded to their sensor.\\}
-	\label{fluxes and fields}
-\end{figure*}
+
+%\begin{figure*}[t]
+%	\centering
+%\includegraphics[scale=.375]{../Plots/shot_85388_currents_fields_fluxes_better_aspect_ratio_polarity.png}\caption{HBT-EP shot 85385, including: \\a) Equlibrium measurements of $I_p$, $I_{Shape}$ and MR.\\  b) TokaMac equilibrium reconstruction of flux surfaces, including plasma and coil polarities\\c) Sensor measurements of Bp near the x-point, compared to expected values (dotted lines).\\  Sensor locations are shown in b), traces are color coded to their sensor.\\}
+%	\label{fluxes and fields}
+%\end{figure*}
 
 %\begin{widetext}
 %This is a test of twocolumn false
 %\end{widetext}
 
 \section{The HBT-EP Tokamak}
-	HBT-EP is well suited to study the MHD consequences of shaping, as its research mission encompasses the RWM and multimode MHD, and so is well instrumented to detect, analyze and excite MHD activity.  It also has a highly flexible configuration allowing study of MHD in multiple regimes(see Figure \ref{schematic}). It is with this in mind that a zero-net-turns coil has been constructed and installed on HBT-EP for the purposes of this thesis.  It locally shapes the plasma roughly 30${^\circ}$ above the inboard midplane, and is capable of diverting the plasma at this location.
+	HBT-EP is well suited to study the MHD consequences of shaping, as its research mission encompasses the RWM and multimode MHD, and so is well instrumented to detect, analyze and excite MHD activity.  It also has a highly flexible configuration allowing study of MHD in multiple regimes, as illustrated in Figure \ref{schematic}. It is with this in mind that a zero-net-turns coil has been constructed and installed on HBT-EP for the purposes of this thesis.  It locally shapes the plasma roughly 30${^\circ}$ above the inboard midplane, and is capable of diverting the plasma at this location.
+	\begin{figure*}[htb]
+	\centering
+	\includegraphics[scale=.25]{../Plots/Plasma_with_sensors_FWall_concept_WithCCview.png}
+	\caption{Rendering of the HBT-EP magnetic diagnostics.  Chamber and shell mounted sensor arrays are used to observe and diagnose natural and driven modes MHD.  Passively stabilizing shells and active control coils of various sizes are used to feed back on the modes.  Ferritic sections are retracted for shaping experiments}
+	\label{schematic}
+	\end{figure*}
+	
+\begin{figure}[htb]
+	\centering
+\includegraphics[scale=.35]{../Plots/HBT_section_cropped.png}\caption{Section of HBT-EP, shaping coil shown in blue}
+	\label{Coil_HBT_Section}
+	\end{figure}
+	
+\begin{figure*}[htb]
+	\centering
+\includegraphics[scale=.285]{../Plots/3_fluxes.png}
+	\caption{The Shaping coil allows for a variety of new equilbria.  Bean-shaped, unshaped, and diverted plasmas are shown, and a continuum of shapes between those shown are possible.  Plots generated using TokaMac and standard HBT-EP equilibria}
+	\label{3_shapes}
+	\end{figure*}	
+
 \subsection{The Shaping Coil}
-    The Shaping Coil is HBT-EP's newest vacuum field coil.  Installed over the summer and autumn of 2012, it shapes the plasma using a quadrupole poloidal field created by three counterwound coil bundles.  Positioned outside the vacuum vessel at the inboard side of the torus just above the midplane, or ~150$^{\circ}$ of poloidal angle, it imposes an X-point on a line between the central bundle and the plasma center.  The X-point can be pushed into the chamber, thus diverting the plasma, or conditions can be chosen such that the X-point remains behind the material limters, leaving the plasma shaped but limited.\par
-    The coil is a single continuous conductor wound in both the co- and contra-IP direction forming a 'zero-net-turns' divertor similar to that used in ASDEX-Upgrade\cite{Keilhacker}.  The coil's field decays rapidly in r and $\theta$, ensuring that the shaping of the plasma is highly localized in radius and poloidal angle.  To allow good coupling, the coil required construction as close as possible to the plasma, inside the TF coils and just outside the inboard edge of the vacuum vessel (see Figure \ref{Coil_HBT_Section}).\par
+    The Shaping Coil is HBT-EP's newest vacuum field coil.  Installed over the summer and autumn of 2012, it shapes the plasma using a quadrupole poloidal field created by three counterwound coil bundles.  The coil is a single continuous conductor wound in both the co- and contra-IP direction forming a 'zero-net-turns' divertor similar to that used in ASDEX-Upgrade\cite{Keilhacker}.  The coil's field decays rapidly in r and $\theta$, ensuring that the shaping of the plasma is highly localized in radius and poloidal angle.  To allow good coupling, the coil required construction as close as possible to the plasma, inside the TF coils and just outside the inboard edge of the vacuum vessel, illustrated in Figure \ref{Coil_HBT_Section}.\par
+    Positioned outside the vacuum vessel at the inboard side of the torus just above the midplane, or ~150$^{\circ}$ of poloidal angle, it imposes an X-point on a line between the central bundle and the plasma center.  The X-point can be pushed into the chamber, thus diverting the plasma, or conditions can be chosen such that the X-point remains behind the material limters, leaving the plasma shaped but limited.  In addition, the direction of the current through the coil can be reversed, creating a 'bean-shaped' plasma.  Schematic drawings of all three cases comprise Figure \ref{3_shapes}\par
+    
 This coil is powered by a two-stage capacitive power bank, similar in operation to those used to power HBT-EP's other electromagnets\cite{Gates}. A low capacitance, high voltage startup supply discharges quickly to initialize the pulse, and a high capacitance, low voltage crowbar supply sustains the discharge current for the life of the plasma.  The shaping coil's field is nearly constant in time after after a fast ramp - though the capability exists to have it start slowly and ramp with $I_p$ - and is a significant fraction of poloidal field due to $I_p$.  The crowbar bank is passively switched into the system through a diode, greatly simplifying the construction and control of the bank, and ensuring a smooth discharge shape as the bank switches in.
 \subsection{Present Capabilities}
 	For the purposes of this proposal, we will discuss only those diagnostics with immediate relevance to the experiment.  The plasma current (Ip) and major radius (MR) are measured using appropriately wound Rogowski coils, and the loop voltage (LV) by a large Mirnov coil.  At present these, together with the values of our vacuum coil currents, suffice to constrain our equilibrium.\par
 	Furthermore, HBT-EP has recently been instrumented with a 2J, 10ns Thompson scattering system, which will allow 3-point profiles of temperature and pressure in the near future.  It is also intended to upgrade the system further, to allow a 10-point measurement, but this may take place after the proposed work has been completed, and 3 points should be more than sufficient.\par
 	Twenty stainless steel shells are used to passively control magnetic fluctuations (Figure \ref{schematic}).  Each shell is further instrumented with 3 independent sets of 2 actively driven saddle coils, allowing excitation or suppression of natural modes in the plasma.  216 Mirnov coils, arranged toroidally and poloidally in a high density array (green, blue, and red rectangles), are used to measure equilibrium fields, fluctuations in the field, and responses to externally driven perturbations.\par
-	Figure \ref{fluxes and fields} shows a reconstructed shaped equilibrium.  The measurements of $I_p$, MR, and shaping current ($I_{sh}$) at 3ms, shown in a), are fed into the TokaMac equilibrium code, and the resulting flux surfaces are plotted in b).  Measurements of the poloidal field from sensors near the x-point are displayed in c), along with dotted lines representing the expected field from the equilibrium.  Qualitative agreement is seen, and the discrepancies will be discussed further in a following subsection.\par
+	Figure \ref{PA_Poloidal_Inversion} shows the predicted field at PA sensor 30, the sensor nearest the central shaping bundle during shot 85385.  We see the poloidal field invert, a necessary condition for diversion.  An n=1 disagreement is seen between the two poloidal array sensors, but in both locations the poloidal shaping field is more than twice the pre-shaping plasma field.
+	
+	%shaped equilibrium.  The measurements of $I_p$, MR, and shaping current ($I_{sh}$) at 3ms, shown in a), are fed into the TokaMac equilibrium code, and the resulting flux surfaces are plotted in b).  Measurements of the poloidal field from sensors near the x-point are displayed in c), along with dotted lines representing the expected field from the equilibrium.  Qualitative agreement is seen, and the discrepancies will be discussed further in a following subsection.\par
 	Fluctuations are separated from the equilibrium signal by a 3-pass ``haystack'' boxcar smoothing algorithm, and the results, shown in Figure \ref{Stripey_85385}, show the structure and dynamics of the mode activity in the plasma as it evolves.  The fluctuations are then subjected to a Singular Value Decomposition (referred to in the literature as `biorthogonal decomposion' or `BD'\cite{de Wit}) to find coherency in space and time, separating the fluctuations into multiple coherent, orthogonal modes of oscillation.  This allows for the discrimination of higher order, lower amplitude modes.  The appropriateness and utility of the BD for analyzing magnetic fluctuations on HBT-EP has been previously investigated\cite{Levesque}.\par
-\begin{figure}[htb]
+\begin{figure}[t]
 \centering
-\includegraphics[scale=.25]{../Plots/stripey_plot_85385_new.png}\caption{Poloidal and Toroidal contours of perturbed poloidal field $B_\theta$ in shot 85385.  Sensors located at white circles.\\m=3, n=1 structure is visible at the time of equilibrium reconstruction (magenta line)}
-\label{Stripey_85385}
+\includegraphics[scale=.375]{../Plots/PA_Poloidal_Inversion.png}\caption{HBT-EP shot 85385, Poloidal field at sensor 30 on both Poloidal Arrays.  N$=$1 disagreement is seen. Both arrays see the poloidal field invert, however.}
+\label{PA_Poloidal_Inversion}
 \end{figure}
+
+\begin{figure*}[htb]
+\centering
+\includegraphics[scale=.5]{../Plots/stripey_plot_85385_new.png}\caption{Poloidal and Toroidal contours of perturbed poloidal field $B_\theta$ in shot 85385.  Sensors located at white circles.\\m=3, n=1 structure is visible at the time of equilibrium reconstruction (magenta line)}
+\label{Stripey_85385}
+\end{figure*}
 	We are concurrently performing studies of the effects of ferritic material on the plasma, and so those shells will be retracted and signal from sensors mounted to ferritic shells (gold panels in Fig. \ref{schematic})  will be excluded from analysis in the experiment.  This reduces to 178 the number of usable sensors, which is still a large multiple of most other experiments' resolution.
 \subsection{Potential Issues}
 	HBT-EP's Ohmic field has a mod-B null at the midplane with a major radius of 89cm.  Current induced by the Ohmic loop voltage will be remain in this channel, and as Ip increases, the poloidal field will be created that confines a toroidal plasma.  Initializing the shaping coils before breakdown would be inappropriate as shaping fields push the null downwards and outwards into the shells, and the effect is exacerbated by the OH field passing through zero as the current is ramped.  As such, plasma shaping cannot be imposed until after the circular plasma has formed.  Currently, the shaping field requires ~1ms to reach its peak and soak through the chamber.  This represents up to 20\% of a shaped plasma's lifetime.  By removing individual capacitors from the start bank, it will be possible to shorten this rise, if it becomes necessary.\par
@@ -154,22 +170,15 @@ This coil is powered by a two-stage capacitive power bank, similar in operation 
 \includegraphics[scale=.525]{../Plots/Shiraki_thesis_Fig_7_1.png}\caption{Plasma response to RMPs of various helicities.  The red line represents the relative amount of +3/1 helicity in each mode.  Taken from referenece \cite{Shiraki}, Figure 7.1}
 	\label{Shiraki_plot}
 	\end{figure}
-HBT-EP's active control saddle coils will be used to impose RMPs of varying helicities to investigate the sensitivity of a shaped or diverted plasma to resonant and non-resonant perturbations.  This has been investigated in circular plasmas previously\cite{Shiraki}.  As seen in Fig \ref{Shiraki_plot}, the 3/1 content of the imposed mode is the major factor in determining plasma response.  Whether the level of response to an RMP's 3/1 component increases or decreases, or whether the response will couple more strongly to a different helicity altogether, and how these effects vary with q* will be the main thrust of this experiment.\par
+HBT-EP's active control saddle coils will be used to impose RMPs of varying helicities to investigate the sensitivity of a shaped or diverted plasma to resonant and non-resonant perturbations.  This has been investigated in circular plasmas previously\cite{Shiraki}.  As seen in Figure \ref{Shiraki_plot}, the 3/1 content of the imposed mode is the major factor in determining plasma response, in a shaped plasma with edge q between 2.85 and 3.  Whether the level of response to an RMP's resonant component increases or decreases, or whether the response will couple more strongly to a different helicity altogether, and how these effects vary with q* will be the main thrust of this experiment.\par
 	\subsection{Effect of Resistive Wall Stabilization on natural MHD Modes}	 
 HBT-EP's modular walls will be retracted or inserted to influence the amount of passive stabilization of the MHD modes.  Retracting the shells, one would expect to see the unstable MHD modes appear with faster growth rates and, possibly, larger amplitudes\cite{Shiraki}.  This should help discriminate the unstable modes from the more stable fluctuations and increase the contrast between the observed modes and background noise.  Our walls are designed to be conformal to a circular plasma, and will thus have reduced coupling to a shaped one, but assuming a shot can be developed with a constant position and shape as the shell radius is varied, we should be able to draw comparisons.  With the ferritic segments installed in the vacuum vessel, we will only be able to use 10 of the 20 shells for this experiment, but that should provide enough stabilization to discern a difference.\par
-\subsection{Reversed Polarity Shaping}
-The shaping coil bank was constructed in such a way that the shaping current can be reversed with ease.  Rather than creating a single-null, diverted plasma, we will create a bean-shaped, limited plasma.  We will be able to perform all the tests described for a diverted plasma on our bean-shaped plasmas.  See Figure \ref{bean_plasma_flux_and_modes} for an example equilibrium created with TokaMac.\par
-By strengthening the poloidal field on the good curvature side, we will in effect reduce the average goodness of curvature for any given field line.  We should expect to see stronger, more repsonsive, and/or more disruptive modes in these plasmas.  It should in theory be possible to scan the shaping current from -7kA to +7kA, and observe the effect of shaping a plasma, from strongly bean-shaped, through circular, through the teardrop-limited shape of a weakly shaped plasma, all the way into magnetic diversion.
-\begin{figure}[htb]
-	\centering
-\includegraphics[scale=.22]{../Plots/bean_plasma_flux_and_currents_85385_90cm_250kPA_neg7kSH_cropped.png}\caption{Simulation of the poloidal flux surfaces of a reverse-shaped plasma}
-	\label{bean_plasma_flux_and_modes}
-	\end{figure}
+
 \section{Preliminary Findings}
-	Several runs have been dedicated to the shaping coil.  We have shaped the plasma with all shells inserted, all shells retracted, and since the ferritic upgrade, with only half of the shells, the non-stainless ones, inserted.  We have also imposed actively driven RMPs on shaped plasmas and quantified their response.  We have used this work period to prepare our analysis code, develop novel forward modeling methods, determine the safe operating parameters and determine deviations from the design. \par 
+	Several runs have already been dedicated to the shaping coil.  We have shaped the plasma to diversion with all shells inserted, all shells retracted, and since the ferritic upgrade, with only the stainless half of the shells inserted.  We have also imposed actively driven RMPs on shaped plasmas and quantified their response.  We have used this work period to prepare our analysis code, develop novel forward modeling methods, determine the safe operating parameters and determine deviations from the design. \par 
 \begin{figure}[b]
 	\centering
-\includegraphics[scale=.22]{../Plots/DCON_VALEN_BD_comp_sh_unsh.png}\caption{Simulation of the poloidal structure of the least stable n$=$1 mode at the plasma surface by DCON, at the poloidal array sensors by VALEN, and the measured signal.\\  Poloidal angle covered by shells is shaded grey}
+\includegraphics[scale=.22]{../Plots/DCON_VALEN_BD_comp_sh_unsh.png}\caption{Poloidal structure of least stable n$=$1 mode at the plasma surface via DCON, at the sensor array via VALEN, and the direct measurement.\\  Unshaped plasma 85402 on top, diverted plasma 85385 below.  Poloidal angle covered by shells is shaded grey}
 	\label{nat_mode_sim_v_meas}
 	\end{figure}
 %\begin{figure}[htb]
@@ -188,7 +197,7 @@ By strengthening the poloidal field on the good curvature side, we will in effec
 	%The main lesson of these two shots is that HBT-EP's intrinsic shot-to-shot variability will require a large dataset, gathered in as small an interval of time as possible, to ensure that meaningful conclusions can be drawn.  During the next run campaign, replicating these shots will be a top priority.\par
 	Natural modes have been detected in shaped and unshaped shots and compared to one another and simulations.  As can be seen in Figure \ref{nat_mode_sim_v_meas}, generally good agreement between prediction and measurement is found.  The poloidal signal is seen to be amplified by the shells, and there is qualitative agreement in the peak separation between the shaped case and VALEN.  % phase location of the peaks in the shaped case seems to be shifted in the direction predicted by VALEN.  
 However, the differences between shaped and unshaped plasma modes as measured by our sensors are less than that predicted by simulation, and radial signals are suppressed to a degree that a larger dataset is required to sharpen the contrast between them.\par
-	Breaking the measured signal down into its Fourier components highlights a difference between measurement and ideal predictions.  Simulations predict a broadening of the Fourier spectrum at both higher and lower m-numbers with shaping.  While the broadening is seen in experiments, it is exclusive to the higher m-numbers.  Signal attenuation with distance increases with increasing m, so low m number components should be measured with high fidelity.\par
+	Fourier decomposition of the poloidal mode structure highlights a difference between measurement and ideal predictions.  Simulations predict a broadening of the Fourier spectrum at both higher and lower m-numbers with shaping.  While the broadening is seen in experiments, it is exclusive to the higher m-numbers.  Signal attenuation with distance increases with increasing m, so low m number components should be measured with high fidelity.\par
 	\begin{figure}[htb]
 	\centering
 \includegraphics[scale=.5]{../Plots/fig2_mode_spectrum_REV2.png}\caption{Fourier breakdown of poloidal mode structure in shots 85402 (circular) and 85285 (shaped)}
@@ -207,13 +216,13 @@ However, the differences between shaped and unshaped plasma modes as measured by
 %	Direct measurements of this mode will not resemble the DCON output however.  Higher m-number modes will decay more rapidly with radial distance from the plasma surface, causing the pickup of our sensors to differ from the mode predicted by DCON.  Also, our poloidal sensors are arrayed to be conformal to a circular plasma, meaning plasma-sensor coupling will vary toroidally.  Furthermore, DCON is a purely ideal code, and does not include the effects of eddy currents in the wall and other conducting structures.  Running an analysis using VALEN to determine what signal to expect gives good agreement with the detected modes (Figure ).
 \newpage
 \section{Summary}
-This document has proposed research into the structure and spectrum of the external kink mode in a shaped plasma utilizing HBT-EP's extensive suite of magnetic diagnostics.  To that end, a shaping coil has been built and installed on HBT-EP.  It's effect on plasma shape is localized near the coil, and gives an up-down asymmetric, diverted plasma.  The work that is to be done on this plasma is as follows:
+The proposed research will study the structure and dynamics of the external kink mode in shaped plasmas utilizing HBT-EP's extensive suite of magnetic diagnostics.  A shaping coil has been installed on HBT-EP.  It's effect on plasma shape is localized near the coil, and gives an up-down asymmetric, diverted plasma.  The work that is to be done for this research is:
 \begin{itemize}
-\item Develop a method of forward modeling the plasma equilibrium and kink mode spectrum using the three codes TokaMac, DCON and VALEN.
+\item Test a method of forward modeling measurements of the kink mode made by HBT-EP magnetic diagnostics using the ideal MHD codes TokaMac, DCON and VALEN.
 \item Investigate the structure and evolution of the natural modes of the diverted plasma, and compare these properties to that of a circular plasma.
-\item Vary the amount of wall stabilization using HBT-EP's modular shells.  Observe the effect on both shaped and circular plasmas
-\item Perturb the plasma using HBT-EP's control coil set.  Compare the response of a diverted plasma to that of a circular plasma, looking in particular at the magnitude of the response, and the location and broadness of resonant peaks.
-\item In addition, these experiments will be performed at various points along the shaping parameter space, from negative-polarity shaped limited plasmas, positive polarity shaped  limited plasmas, and the aforementioned positive-polarity diverted plasmas.
+\item Chang the wall configuration using HBT-EP's modular shells.  Observe the effect on both shaped and circular plasmas
+\item Apply RMPs using using HBT-EP's control coil set.  Compare the response of a diverted plasma to that of a circular plasma, looking in particular at the magnitude of the response, and the location and broadness of resonant peaks.
+
 \end{itemize}
 \section{Acknowledgements}
 Design, fabrication and installation were all aided greatly by the contributions of Nick Rivera and James Andrello.
