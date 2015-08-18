@@ -1,0 +1,431 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.15)  7 NOV 2013 14:40
+entering extended mode
+ %&-line parsing enabled.
+**byrne_aps_2013_1.tex
+(./byrne_aps_2013_1.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./apamposter_1.sty
+
+LaTeX Warning: You have requested package `apamposter_1',
+               but the package provides `apamposter'.
+
+Package: apamposter 
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2008/12/21 v4.2 Page Geometry
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen105
+\Gm@wd@mp=\dimen106
+\Gm@odd@mp=\dimen107
+\Gm@even@mp=\dimen108
+\Gm@dimlist=\toks15
+)
+(/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
+Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
+\c@tracingmulticols=\count91
+\mult@box=\box26
+\multicol@leftmargin=\dimen109
+\c@unbalance=\count92
+\c@collectmore=\count93
+\doublecol@number=\count94
+\multicoltolerance=\count95
+\multicolpretolerance=\count96
+\full@width=\dimen110
+\page@free=\dimen111
+\premulticols=\dimen112
+\postmulticols=\dimen113
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count97
+\c@finalcolumnbadness=\count98
+\last@try=\dimen114
+\multicolovershoot=\dimen115
+\multicolundershoot=\dimen116
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+)
+Package color Info: Redefining color white on input line 54.
+Package color Info: Redefining color black on input line 62.
+Package color Info: Redefining color red on input line 63.
+)
+(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count99
+)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texmf-texlive/tex/latex/textpos/textpos.sty
+Package: textpos 2009/05/28 v1.7f
+
+Package: `textpos' 1.7f <2009 May 28>
+\TP@textbox=\box52
+\TPHorizModule=\dimen117
+\TPVertModule=\dimen118
+\TP@margin=\dimen119
+\TP@absmargin=\dimen120
+Grid set 16 x 16 = 280.04625pt x 171.64124pt
+\TPboxrulesize=\dimen121
+\TP@tbargs=\toks16
+\TP@prevdepth=\dimen122
+) (./byrne_aps_2013_1.aux)
+\openout1 = `byrne_aps_2013_1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 10.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count100
+\scratchdimen=\dimen123
+\scratchbox=\box53
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen124
+\MPnumerator=\count104
+\everyMPtoPDFconversion=\toks18
+)
+*geometry auto-detecting driver*
+*geometry detected driver: pdftex*
+-------------------- Geometry parameters
+paper: user defined
+landscape: true
+twocolumn: --
+twoside: --
+asymmetric: --
+h-parts: 72.26999pt, 4336.20001pt, 72.26999pt
+v-parts: 72.26999pt, 2384.91002pt, 289.07999pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: pdftex
+-------------------- Page layout dimensions and switches
+\paperwidth  4480.73999pt
+\paperheight 2746.26pt
+\textwidth  4336.20001pt
+\textheight 2384.91002pt
+\oddsidemargin  0.0pt
+\evensidemargin 0.0pt
+\topmargin  -37.0pt
+\headheight 12.0pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 65.0pt
+\marginparsep   11.0pt
+\columnsep  85.35826pt
+\skip\footins  9.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 33.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Calculating math sizes for size <43> on input line 35.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 35.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 35.
+
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 35.
+
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <43> on input line 35.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <30.09987> on input line 35.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <21.5> on input line 35.
+LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <43> not available
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 35.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <24.88> on input line 44.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 44.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 44.
+
+<CU_logo_exported.png, id=1, 567.0786pt x 113.223pt>
+File: CU_logo_exported.png Graphic file (type png)
+
+<use CU_logo_exported.png>
+Overfull \hbox (223.49794pt too wide) in paragraph at lines 51--52
+[][] 
+ []
+
+<hbt_logo.png, id=3, 225.09094pt x 144.54pt>
+File: hbt_logo.png Graphic file (type png)
+ <use hbt_logo.png>
+Overfull \hbox (167.82039pt too wide) in paragraph at lines 58--59
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 113.
+
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <24.88> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 113.
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+<ModeDWimage2.jpg, id=4, 1597.97pt x 1012.78375pt>
+File: ModeDWimage2.jpg Graphic file (type jpg)
+ <use ModeDWimage2.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+<HBT-EP_Full2.pdf, id=5, 564.1075pt x 383.4325pt>
+File: HBT-EP_Full2.pdf Graphic file (type pdf)
+ <use HBT-EP_Full2.pdf>
+<HBT-EP_Section.pdf, id=6, 322.20375pt x 218.8175pt>
+File: HBT-EP_Section.pdf Graphic file (type pdf)
+ <use HBT-EP_Section.pdf>
+<Simplified_bank_diagram.png, id=7, 681.29532pt x 342.5297pt>
+File: Simplified_bank_diagram.png Graphic file (type png)
+
+<use Simplified_bank_diagram.png> <Cap_bank.jpg, id=8, 1927.2pt x 2569.6pt>
+File: Cap_bank.jpg Graphic file (type jpg)
+
+<use Cap_bank.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+<strike_point_limiter_cropped.pdf, id=9, 808.4604pt x 568.04218pt>
+File: strike_point_limiter_cropped.pdf Graphic file (type pdf)
+
+<use strike_point_limiter_cropped.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 197--199
+
+ []
+
+<bank_currents.png, id=10, 578.16pt x 433.62pt>
+File: bank_currents.png Graphic file (type png)
+ <use bank_currents.png>
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+<shaping_current_sim_vs_real_81797.png, id=11, 578.16pt x 433.62pt>
+File: shaping_current_sim_vs_real_81797.png Graphic file (type png)
+
+<use shaping_current_sim_vs_real_81797.png>
+LaTeX Font Info:    Calculating math sizes for size <29.86> on input line 220.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <29.86> on input line 220.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.9019> on input line 220.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.93> on input line 220.
+
+<flux_surfaces_during_shaping.png, id=12, 794.97pt x 433.62pt>
+File: flux_surfaces_during_shaping.png Graphic file (type png)
+
+<use flux_surfaces_during_shaping.png>
+Underfull \hbox (badness 10000) in paragraph at lines 231--234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--234
+
+ []
+
+<poloidal_field_cancellation_APS_2013.png, id=13, 794.97pt x 433.62pt>
+File: poloidal_field_cancellation_APS_2013.png Graphic file (type png)
+
+<use poloidal_field_cancellation_APS_2013.png> (./byrne_aps_2013_1.bbl)
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./CU_logo_exported.png> <.
+/hbt_logo.png (PNG copy)> <./ModeDWimage2.jpg> <./HBT-EP_Full2.pdf> <./HBT-EP_S
+ection.pdf> <./Simplified_bank_diagram.png (PNG copy)> <./Cap_bank.jpg> <./stri
+ke_point_limiter_cropped.pdf> <./bank_currents.png> <./shaping_current_sim_vs_r
+eal_81797.png> <./flux_surfaces_during_shaping.png> <./poloidal_field_cancellat
+ion_APS_2013.png>] (./byrne_aps_2013_1.aux) ) 
+Here is how much of TeX's memory you used:
+ 2068 strings out of 495061
+ 29098 string characters out of 1182621
+ 127295 words of memory out of 3000000
+ 5224 multiletter control sequences out of 15000+50000
+ 71694 words of font info for 55 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 32i,6n,29p,736b,831s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/dvips/
+lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/tex
+mf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmb
+x12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
+>
+Output written on byrne_aps_2013_1.pdf (1 page, 6177168 bytes).
+PDF statistics:
+ 93 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+

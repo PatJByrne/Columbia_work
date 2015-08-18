@@ -1,0 +1,53 @@
+#!/usr/bin/python
+
+TokaMac.write_tokamac_config(eq, workdir)
+TokaMac.run_tokamac(workdir)
+
+currentstr = '3.5kA'
+
+qprofile = open("/home/byrne/APS_Work/2010_Stochasticity/Equilibrium_"
+"Reconstructions/Equilibria/TokOut_FluxPr.out")
+#islands = open("/home/byrne/APS_Work/Equilibrium_Reconstructions/"
+               # "Perturbations/Islands.txt")
+qdata  = qprofile.readlines()
+qprofile.close()
+
+rlist = numpy.arange(N, dtype=numpy.float)
+rNlist = numpy.arange(N, dtype=numpy.float)
+qlist = numpy.arange(N, dtype=numpy.float)
+dqlist = numpy.arange(N, dtype=numpy.float)
+psilist = numpy.arange(N, dtype=numpy.float)
+Bphi = 3500.0
+Ro = (92.0/16.0)
+amp = numpy.arange(2, dtype=numpy.float)
+
+#x&y values - normalized radius and safety factor
+for i in range(7,N+7):
+    entries = qdata[i].split()
+    rNlist[i-7] = math.sqrt(float(entries[1]))
+    psilist[i-7] = float(entries[2])
+    qlist[i-7] = float(entries[3])
+    
+dqlist = deriv.slope(rNlist,qlist)
+ #discard first and last q, and dq points - cannot get good dq/dr data.
+(qlist,dqlist,rNlist,N) = (qlist[1:],dqlist[1:],rNlist[1:],N-1)
+(qlist,dqlist,rNlist,N) = (qlist[:-1],dqlist[:-1],rNlist[:-1],N-1)
+print len(rlist),len(qlist)
+#y values - Psi plot
+#for i in range(7,71):
+    #entries = data[i].split()
+    #psi = float(entries[2])
+    #psilist.insert(i-7,psi)
+    #i = i+1
+
+#y values - Dq/Dr plot
+
+
+
+islfinder_data = islfndr.where(rNlist,qlist,dqlist)
+m       =islfinder_data[0,:]
+n       =islfinder_data[1,:]
+rNisland=islfinder_data[2,:]
+qisland =islfinder_data[3,:]
+dqisland=islfinder_data[4,:]
+index   =islfinder_data[5,:]

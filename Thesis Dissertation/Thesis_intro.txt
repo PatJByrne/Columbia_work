@@ -1,0 +1,4 @@
+High Resolution Measurement of Kink Instability in a Shaped Tokamak Plasma
+
+Introduction
+Fusion energy offers a wide variety of benefits for the world.  The fuel is abundant, with enough reserves to last several thousands of years.  It is widely distributed, reducing the opportunities for conflict over resources.  The reaction is both carbon-neutral, and the resultant waste is non-radioactive helium.  Though the containment vessel will become activated and radioactive, much like current fission reactors, there exist more advanced fuel mixes that are completely aneutronic, removing even that slight drawback.  Looking at the recent news, it should be immediately obvious how much good a new fuel with any of these advantages would do.  Indeed, the news of previous years, and most likely that of the future all illustrate the huge good the harnessing of fusion power would do.
