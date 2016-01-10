@@ -4,11 +4,11 @@
 \vspace {1em}
 \contentsline {chapter}{Acknowledgements}{iv}{dummy.3}
 \vspace {1em}
-\contentsline {chapter}{List of Figures}{vi}{dummy.5}
-\contentsline {chapter}{List of Tables}{vii}{dummy.7}
-\contentsline {chapter}{Abbreviations}{viii}{dummy.9}
-\contentsline {chapter}{Physical Constants}{ix}{dummy.12}
-\contentsline {chapter}{Symbols}{x}{dummy.15}
+\contentsline {chapter}{List of Figures}{vii}{dummy.5}
+\contentsline {chapter}{List of Tables}{viii}{dummy.7}
+\contentsline {chapter}{Abbreviations}{ix}{dummy.9}
+\contentsline {chapter}{Physical Constants}{x}{dummy.12}
+\contentsline {chapter}{Symbols}{xi}{dummy.15}
 \vspace {2em}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.18}
 \contentsline {paragraph}{}{1}{section*.19}
@@ -21,6 +21,13 @@
 \contentsline {section}{\numberline {1.2}plasma confinement}{3}{section.30}
 \contentsline {subsection}{\numberline {1.2.1}A Subsection}{3}{subsection.31}
 \contentsline {section}{\numberline {1.3}Another Section}{4}{section.32}
+\contentsline {chapter}{\numberline {2}The Shaping Coil}{5}{chapter.33}
+\contentsline {section}{\numberline {2.1}The Coil}{5}{section.34}
+\contentsline {paragraph}{}{5}{section*.35}
+\contentsline {section}{\numberline {2.2}Error Fields}{5}{section.36}
+\contentsline {section}{\numberline {2.3}The Material Limiter}{7}{section.38}
+\contentsline {paragraph}{}{7}{section*.39}
+\contentsline {paragraph}{}{7}{section*.40}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}An Appendix}{5}{appendix.33}
+\contentsline {chapter}{\numberline {A}An Appendix}{8}{appendix.41}
 \vspace {2em}
