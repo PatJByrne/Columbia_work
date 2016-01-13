@@ -24,10 +24,15 @@
 \contentsline {chapter}{\numberline {2}The Shaping Coil}{5}{chapter.33}
 \contentsline {section}{\numberline {2.1}The Coil}{5}{section.34}
 \contentsline {paragraph}{}{5}{section*.35}
-\contentsline {section}{\numberline {2.2}Error Fields}{5}{section.36}
-\contentsline {section}{\numberline {2.3}The Material Limiter}{7}{section.38}
-\contentsline {paragraph}{}{7}{section*.39}
-\contentsline {paragraph}{}{7}{section*.40}
+\contentsline {section}{\numberline {2.2}The Coil}{5}{section.36}
+\contentsline {subsection}{\numberline {2.2.1}The Coil Holders}{5}{subsection.37}
+\contentsline {subsection}{\numberline {2.2.2}Leads \& Bundle Connections}{5}{subsection.38}
+\contentsline {section}{\numberline {2.3}The Power Supply}{6}{section.40}
+\contentsline {paragraph}{}{6}{section*.41}
+\contentsline {section}{\numberline {2.4}The Limiter}{8}{section.42}
+\contentsline {section}{\numberline {2.5}The Material Limiter}{8}{section.43}
+\contentsline {paragraph}{}{8}{section*.44}
+\contentsline {paragraph}{}{8}{section*.45}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}An Appendix}{8}{appendix.41}
+\contentsline {chapter}{\numberline {A}An Appendix}{9}{appendix.46}
 \vspace {2em}
