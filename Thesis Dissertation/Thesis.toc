@@ -11,28 +11,45 @@
 \contentsline {chapter}{Symbols}{xi}{dummy.15}
 \vspace {2em}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.18}
-\contentsline {paragraph}{}{1}{section*.19}
-\contentsline {paragraph}{}{1}{section*.20}
-\contentsline {paragraph}{}{1}{section*.21}
-\contentsline {paragraph}{}{2}{section*.22}
-\contentsline {section}{\numberline {1.1}The D-T Fusion Reaction}{2}{section.23}
-\contentsline {paragraph}{}{2}{section*.24}
-\contentsline {paragraph}{}{3}{section*.27}
-\contentsline {section}{\numberline {1.2}plasma confinement}{3}{section.30}
-\contentsline {subsection}{\numberline {1.2.1}A Subsection}{3}{subsection.31}
-\contentsline {section}{\numberline {1.3}Another Section}{4}{section.32}
-\contentsline {chapter}{\numberline {2}The Shaping Coil}{5}{chapter.33}
-\contentsline {section}{\numberline {2.1}The Coil}{5}{section.34}
-\contentsline {paragraph}{}{5}{section*.35}
-\contentsline {section}{\numberline {2.2}The Coil}{5}{section.36}
-\contentsline {subsection}{\numberline {2.2.1}The Coil Holders}{5}{subsection.37}
-\contentsline {subsection}{\numberline {2.2.2}Leads \& Bundle Connections}{5}{subsection.38}
-\contentsline {section}{\numberline {2.3}The Power Supply}{6}{section.40}
-\contentsline {paragraph}{}{6}{section*.41}
-\contentsline {section}{\numberline {2.4}The Limiter}{8}{section.42}
-\contentsline {section}{\numberline {2.5}The Material Limiter}{8}{section.43}
-\contentsline {paragraph}{}{8}{section*.44}
-\contentsline {paragraph}{}{8}{section*.45}
+\contentsline {section}{\numberline {1.1}The D-T Fusion Reaction}{2}{section.19}
+\contentsline {section}{\numberline {1.2}Plasma Confinement}{3}{section.22}
+\contentsline {subsection}{\numberline {1.2.1}Efficiency and $\beta $}{4}{subsection.25}
+\contentsline {chapter}{\numberline {2}HBT-EP Capabilities}{5}{chapter.28}
+\contentsline {paragraph}{}{5}{section*.29}
+\contentsline {section}{\numberline {2.1}The Plasma}{6}{section.30}
+\contentsline {subsection}{\numberline {2.1.1}Equlibrium Fields}{6}{subsection.31}
+\contentsline {subsubsection}{\numberline {2.1.1.1}Toroidal Field}{6}{subsubsection.32}
+\contentsline {subsubsection}{\numberline {2.1.1.2}Ohmic Heating}{6}{subsubsection.33}
+\contentsline {subsubsection}{\numberline {2.1.1.3}Vertical Field}{6}{subsubsection.34}
+\contentsline {subsection}{\numberline {2.1.2}Material Limiters}{6}{subsection.35}
+\contentsline {subsection}{\numberline {2.1.3}Measurement of Equilibrium Parameters}{7}{subsection.37}
+\contentsline {subsubsection}{\numberline {2.1.3.1}Plasma Current}{7}{subsubsection.38}
+\contentsline {subsubsection}{\numberline {2.1.3.2}Major Radius}{8}{subsubsection.39}
+\contentsline {section}{\numberline {2.2}Plasma Control}{8}{section.40}
+\contentsline {subsection}{\numberline {2.2.1}Passive Shells}{8}{subsection.41}
+\contentsline {subsection}{\numberline {2.2.2}Active Control Coils}{8}{subsection.42}
+\contentsline {section}{\numberline {2.3}Mode Detection}{8}{section.43}
+\contentsline {subsection}{\numberline {2.3.1}The Poloidal Arrays}{9}{subsection.47}
+\contentsline {subsection}{\numberline {2.3.2}The Toroidal Array}{9}{subsection.48}
+\contentsline {subsection}{\numberline {2.3.3}The Feedback Arrays}{9}{subsection.49}
+\contentsline {section}{\numberline {2.4}Signal Digitization}{10}{section.50}
+\contentsline {chapter}{\numberline {3}The Shaping Coil}{11}{chapter.51}
+\contentsline {section}{\numberline {3.1}The Coil}{11}{section.52}
+\contentsline {paragraph}{}{11}{section*.53}
+\contentsline {section}{\numberline {3.2}The Coil}{11}{section.54}
+\contentsline {subsection}{\numberline {3.2.1}The Coil Holders}{11}{subsection.55}
+\contentsline {subsubsection}{\numberline {3.2.1.1}Rip-testing of Coil Jump-out}{12}{subsubsection.56}
+\contentsline {subsection}{\numberline {3.2.2}Leads \& Bundle Connections}{12}{subsection.57}
+\contentsline {section}{\numberline {3.3}The Power Supply}{12}{section.59}
+\contentsline {paragraph}{}{12}{section*.60}
+\contentsline {section}{\numberline {3.4}The Limiter}{14}{section.61}
+\contentsline {section}{\numberline {3.5}The Material Limiter}{14}{section.62}
+\contentsline {paragraph}{}{14}{section*.63}
+\contentsline {paragraph}{}{14}{section*.64}
+\contentsline {chapter}{\numberline {4}Signal Analysis}{16}{chapter.66}
+\contentsline {paragraph}{}{16}{section*.67}
+\contentsline {section}{\numberline {4.1}The Biorthogonal Decomposition Algorithm}{16}{section.68}
+\contentsline {paragraph}{}{16}{section*.69}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}An Appendix}{9}{appendix.46}
+\contentsline {chapter}{\numberline {A}An Appendix}{18}{appendix.72}
 \vspace {2em}

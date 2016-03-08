@@ -2,6 +2,7 @@
 \documentclass[a4paper, 11pt, oneside]{Thesis}  % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
 \graphicspath{Figures/}  % Location of the graphics files (set up for graphics to be in PDF format)
 
+
 % Include any extra LaTeX packages required
 \usepackage[square, numbers, comma, sort&compress]{natbib}  % Use the "Natbib" style for the references in the Bibliography
 \usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
@@ -122,7 +123,6 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 %% ----------------------------------------------------------------
 \lhead{\emph{List of Tables}}  % Set the left side page header to "List of Tables"
 \listoftables  % Write out the List of Tables
-
 %% ----------------------------------------------------------------
 \setstretch{1.5}  % Set the line spacing to 1.5, this makes the following tables easier to read
 \clearpage  % Start a new page
@@ -173,14 +173,14 @@ $\omega$ & angular frequency & rads$^{-1}$ \\
 
 % Include the chapters of the thesis, as separate files
 % Just uncomment the lines as you write the chapters
-
+\lhead{\emph{Introduction}}  % Change the left side page header to "Introduction"
 \input{Chapters/Chapter1} % Introduction
-
-\input{Chapters/Chapter2} % Experimental Setup 
-
+\lhead{\emph{HBT-EP Capabilities}}  % Change the left side page header to "HBT-EP Capabilities"
+\input{Chapters/Chapter2} % HBT-EP Capabilites
+\lhead{\emph{The Shaping Coil}}  % Change the left side page header to "The Shaping Coil"
 \input{Chapters/Chapter3} % Shaping Coil
-
-%\input{Chapters/Chapter4} % Experiment 1
+\lhead{\emph{Signal Analysis}}  % Change the left side page header to "Signal Analysis"
+\input{Chapters/Chapter4} % Biorthogonal Decomposition
 
 %\input{Chapters/Chapter5} % Experiment 2
 
@@ -194,7 +194,7 @@ $\omega$ & angular frequency & rads$^{-1}$ \\
 \addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
 
 \appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
-
+\lhead{\emph{Appendix A}}  % Change the left side page header to "Appendix A"
 \input{Appendices/AppendixA}	% Appendix Title
 
 %\input{Appendices/AppendixB} % Appendix Title
