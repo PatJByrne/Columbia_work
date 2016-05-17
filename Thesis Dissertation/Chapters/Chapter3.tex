@@ -31,6 +31,71 @@ The coil holders are further supplemented by a set of ten clamps, which hang fro
 \end{figure}
 
 \subsection{Defining the Plasma Shape}
-The definitions set out in \cite{Luce} will be used for discussion of the plasma shape in this research.  These definitions are more suited to the HBT-EP plasma, since the shaped equilibrium has no symmetry in the R-Z plane.  Common figures of merit, such as elongation and triangularity, can be defined for arbitrary geometries, and an analytic form for the LCFS can be derived.
+The definitions set out in \cite{Luce} will be used for discussion of the plasma shape in this research.  These definitions are more suited than others used \cite{Boozer} to the HBT-EP plasma, since the shaped equilibrium has no symmetry in the R-Z plane, and the shaping is sharp and highly localized.  Common figures of merit, such as elongation and triangularity, can be defined for arbitrary geometries, and an analytic form for the LCFS can be derived.  Table \ref{Shaping Deets} lists the figures of merit, how they are calculated, and the points on the plasma edge that are used for the calculations.  It should be noted that some changes have been made to the formulae from \cite{Luce}, for reasons that will be explained below.
 
-The plot below shows a circular HBT-EP plasma, and a diverted plasma, with other equilibrium parameters (MR, I$_p$ being held constant) 
+\begin{table}[h!]
+\centering
+\begin{tabular}{ |c|c|c| } 
+\hline
+\textbf{Term} & \textbf{Name} & \textbf{Definition} \\ 
+\hline
+R$_{max}$ & None & Point on LCFS with largest R value \\ 
+\hline
+R$_{min}$ & None & Point on LCFS with smallest R value \\ 
+\hline
+Z$_{max}$ & None & Point on LCFS with largest Z value \\ 
+\hline
+Z$_{min}$ & None & Point on LCFS with smallest Z value \\ 
+\hline
+R$_{Zmax}$ & None & R coordinate of Z$_{max}$ \\ 
+\hline
+R$_{Zmin}$ & None & R coordinate of Z$_{min}$  \\ 
+\hline
+R$_{geo}$ & Major Radius & $(R_{Z_{max}}+R_{Z_{min}})/2$ \\
+\hline
+a & Minor Radius & $(Z_{max}-Z_{min})/2$ \\ 
+\hline
+Z$_{off}$ & Vertical Midplane & $(Z_{max}+Z_{min})/2$ \\ 
+\hline
+$\kappa_u$ & Upper Elongation & $a/(R_{min}-R_{geo})$ \\ 
+\hline
+$\kappa_d$ & Lower Elongation & $a/(R_{geo}-R_{max})$ \\ 
+\hline
+$\delta_u$ & Upper Triangularity & $(Z_{R_{max} - Z_{off})/a$ \\ 
+\hline
+$\delta_d$ & Lower Triangularity & $(Z_{R_{min}}-Z_{off})/a$ \\ 
+\hline
+\end{tabular}
+\caption{HBT-EP Shaped Plasma Geometric Figures of Merit}
+\label{Shaping Deets}
+\end{table}
+
+For the purposes of this research, the roles of $R_{geo}$, the geometric major radius, and $Z_{off}$, the vertical midplane, have been transposed.  $R_{geo}$ is further calculated using the top and bottom locations of the plasma, rather than the inner- and outer-most locations.  This is due to the fact that, unlike most other diverted Tokamaks, HBT-EP's X-point does not define an extrema in the Z-direction, but rather in the R-direction.  Using the definitions laid out in \cite{Luce}, we would have unrepresentative numbers for $R_{geo}$, a, $\delta_u$, $\kappa_u$.  By using the definitions listed in Table \ref{Shaping Deets}, we derive values that are similar in both sign and magnitude to what would naively be expected by someone experienced in plasma shaping.\paragraph{•}
+The plot below shows a circular HBT-EP plasma, and a diverted plasma, with similarly located current centroids.  The locations referenced in Table \ref{Shaping Deets} are shown.  As can be seen, the X-point defines R$_{min}$ as opposed to Z$_{max}$, which would be most common among other diverted Tokamaks.  This is what motivates the modification of the existing definitions.\paragraph{}
+Table \ref{Shaping_params_C_and_D} shows the values of major and minor radii, and upper and lower triangularity and elongation for both plasmas, using both methods. As can be seen, the choice of methods has little effect on the circular plasma, and for the diverted plasma, we see that the major and minor radii have more reasonable values, the horizontal oblateness of the plasma is better represented, and that upper triangularity is large and positive, as would be expected, using the modified equations.
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{ |c|c|c|c|c| } 
+\hline
+\textbf{Figure of Merit}&\textbf{Circular, Standard} & \textbf{Circular, Modified} & \textbf{Diverted, Standard} &\textbf{Diverted, Modified} \\ 
+\hline
+R$_{geo}$ & Major Radius & $(R_{Z_{max}}+R_{Z_{min}})/2$ \\
+\hline
+a & Minor Radius & $(Z_{max}-Z_{min})/2$ \\ 
+\hline
+Z$_{off}$ & Vertical Midplane & $(Z_{max}+Z_{min})/2$ \\ 
+\hline
+$\kappa_u$ & Upper Elongation & $a/(R_{min}-R_{geo})$ \\ 
+\hline
+$\kappa_d$ & Lower Elongation & $a/(R_{geo}-R_{max})$ \\ 
+\hline
+$\delta_u$ & Upper Triangularity & $(Z_{R_{max} - Z_{off})/a$ \\ 
+\hline
+$\delta_d$ & Lower Triangularity & $(Z_{R_{min}}-Z_{off})/a$ \\ 
+\hline
+\end{tabular}
+\caption{HBT-EP Shaped Plasma Geometric Figures of Merit}
+\label{Shaping_params_C_and_D}
+\end{table}
