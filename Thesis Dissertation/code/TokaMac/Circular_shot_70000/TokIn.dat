@@ -1,0 +1,376 @@
+// HBT-EP datafile
+// 
+// Shaped Cross-Section for HBT-EP
+// Stnd Model
+// Bp = 0 Magnetic Axis measurements added
+//
+
+K_CodeControl
+	MaxIterFixed = 0
+	MaxIterFree = 21
+	NumCoils = 3
+	NumLimiters = 4
+	NumShells = 0
+	NumSeps = 1
+	NumMeasures = 6
+	Name = Shape2
+	Info = Shape2
+	//Oname = hbtep_shape2
+	RSname = hbtep_Restart.bin
+	MGname = hbtep_MGreen.bin
+	LHname = hbtep_LHGreens.bin
+	SMname = hbtep_SInduct.bin
+	SGname = hbtep_SGreen.bin
+	RestartStatus = 0
+	LHGreenStatus = 0
+	MGreenStatus = 0
+	SGreenStatus = 0
+	SInductStatus = 0
+
+K_PsiGrid
+	Nsize = 256
+	Xmin = 0.72
+	Xmax = 1.10
+	Zmin = -0.19
+	Zmax = 0.19
+	Symmetric = 0
+	BoundThreshold = 1.0E-6
+	ResThreshold = 1.0e-8
+	UnderRelax = 0.5
+
+K_Plasma
+	B0 = 0.319
+	R0 = 0.929
+	Z0 = 0.00
+	a0 = 0.14
+	Ip0 = 11.96e3
+	ModelType = 0
+	StndP = 1.7
+	StndG = 1.7
+	NumPsiPts = 96
+	PsiXmax = 0.999
+	Jedge = 0.0
+
+K_Limiter
+	Name = TopLim
+	X1 = 0.86127
+	Z1 = 0.15017
+	X2 = 1.079
+	Z2 = 0.15017
+	Enabled = 1
+	
+K_Limiter
+	Name = BotLim
+	X1 = 0.86127
+	Z1 = -0.15017
+	X2 = 1.079
+	Z2 = -0.15017
+	Enabled = 1
+	
+K_Limiter
+	Name = RadLim                
+	X1 = 1.07227                   
+	Z1 = 0.0        
+	X2 = 1.07227        
+	Z2 = 0.11033
+	Enabled = 1
+
+K_Limiter
+	Name = InRadLim                
+	X1 = 0.7511                  
+	Z1 = 0.0        
+	X2 = 0.7511        
+	Z2 = 0.11033
+	Enabled = 1
+	
+K_Separatrix
+	Name = InnerSep                 
+	X1 = 0.74                   
+	Z1 = 0.01        
+	X2 = 0.81      
+	Z2 = 0.10
+	Enabled = 1
+
+
+// ***** OH Coil *****
+K_Coil
+	Name = OH_Coil
+	Enabled = 1
+	InitialCurrent = -11.67e3
+K_SubCoil
+	Name = OHT1                        
+	X = 0.6600   
+	Z = 0.701   
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = OHT2                        
+	X = 0.6400   
+	Z = 0.719   
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = OH1                       
+	X = 0.257   
+	Z = 0.30   
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = OH2                     
+	X = 0.257   
+	Z = 0.215   
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = OH3                      
+	X = 0.257   
+	Z = 0.129
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = OH4                        
+	X = 0.257   
+	Z = 0.043   
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = OH5                        
+	X = 0.257   
+	Z = -0.043   
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = OH6             
+	X = 0.257  
+	Z = -0.129   
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = OH7      
+	X = 0.257  
+	Z = -0.215   
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = OH8           
+	X = 0.257  
+	Z = -0.3   
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = OHB1              
+	X = 0.66  
+	Z = -0.701
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = OHB2              
+	X = 0.64 
+	Z = -0.719
+	CurrentFraction = 1.0
+
+
+// ***** VF Coil *****
+K_Coil
+	Name = VF_Coil
+	Enabled = 1
+	InitialCurrent = -2.28e3
+K_SubCoil
+	Name = VFT1                       
+	X = 1.59  
+	Z = 0.665  
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = VFT2             
+	X = 1.59  
+	Z = 0.635 
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = VFT3               
+	X = 1.55  
+	Z = 0.665  
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = VFT4             
+	X = 1.55  
+	Z = 0.635 
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = VFin1             
+	X = 0.257  
+	Z = 0.452   
+	CurrentFraction = -1.0
+K_SubCoil
+	Name = VFin2            
+	X = 0.257  
+	Z = 0.433  
+	CurrentFraction = -1.0
+K_SubCoil
+	Name = VFin3            
+	X = 0.257  
+	Z = 0.414  
+	CurrentFraction = -1.0
+K_SubCoil
+	Name = VFin4          
+	X = 0.257  
+	Z = 0.395  
+	CurrentFraction = -1.0
+K_SubCoil
+	Name = VFin5            
+	X = 0.257  
+	Z = 0.376  
+	CurrentFraction = -1.0
+K_SubCoil
+	Name = VFin6            
+	X = 0.257  
+	Z = 0.357  
+	CurrentFraction = -1.0
+//////////////
+// Bottom half
+//////////////
+K_SubCoil
+	Name = VFB1                       
+	X = 1.59  
+	Z = -0.665  
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = VFB2             
+	X = 1.59  
+	Z = -0.635 
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = VFB3               
+	X = 1.55  
+	Z = -0.665  
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = VFB4             
+	X = 1.55  
+	Z = -0.635 
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = VFin1b             
+	X = 0.257  
+	Z = -0.452   
+	CurrentFraction = -1.0
+K_SubCoil
+	Name = VFin2b            
+	X = 0.257  
+	Z = -0.433  
+	CurrentFraction = -1.0
+K_SubCoil
+	Name = VFin3b            
+	X = 0.257  
+	Z = -0.414  
+	CurrentFraction = -1.0
+K_SubCoil
+	Name = VFin4b          
+	X = 0.257  
+	Z = -0.395  
+	CurrentFraction = -1.0
+K_SubCoil
+	Name = VFin5b            
+	X = 0.257  
+	Z = -0.376  
+	CurrentFraction = -1.0
+K_SubCoil
+	Name = VFin6b            
+	X = 0.257  
+	Z = -0.357  
+	CurrentFraction = -1.0
+
+// ***** SH Coil *****
+K_Coil
+	Name = SH_Coil
+	Enabled = 1
+	InitialCurrent = 0.00e3
+
+K_SubCoil
+	Name = SH1                       
+	X = 0.67883209  
+	Z = 0.05571566  
+	CurrentFraction = -1.0
+K_SubCoil
+	Name = SH2                       
+	X = 0.68163099
+	Z = 0.06888349
+	CurrentFraction = -1.0
+K_SubCoil
+	Name = SH3                       
+	X = 0.7040727  
+	Z = 0.12383564  
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = SH4                       
+	X = 0.70997409  
+	Z = 0.13593521
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = SH5                       
+	X = 0.69197317 
+	Z = 0.129737
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = SH6                       
+	X = 0.69787452 
+	Z = 0.14183656
+	CurrentFraction = 1.0
+K_SubCoil
+	Name = SH7                       
+	X = 0.73946046
+	Z = 0.18745147
+	CurrentFraction = -1.0
+K_SubCoil
+	Name = SH8                       
+	X = 0.74811367
+	Z = 0.19776396
+	CurrentFraction = -1.0
+
+
+/////////////////////////////////////////
+// M E A S U R E M E N T S
+/////////////////////////////////////////
+
+// EF MEASUREMENTS
+
+K_Measure
+	mType = 8
+	Name = OH_Coil_Current
+	Value = -11.67e3
+	StdDev =  0.05e3
+	CoilNum = 1
+
+K_Measure
+	mType = 8
+	Name = VF_Coil_Current
+	Value = -2.28e3
+	StdDev = 0.05e3
+	CoilNum = 2
+
+K_Measure
+	mType = 8
+	Name = SH_Coil_Current
+	Value = 0.00e3
+	StdDev = 0.25e3
+	CoilNum = 3
+
+
+// PLASMA CURRENT
+
+K_Measure 
+	mType = 9
+	Name = PlasmaCurrent
+	Value = 11.96e3
+	StdDev = 0.30e3
+
+
+// MAGNETIC AXIS
+
+K_Measure
+	mType = 1
+	Name = MagAxis
+	Angle = 0
+	X = 0.929
+	Z = 0.0
+	Value =  0.0        
+	StdDev = 0.005
+
+
+// CENTRAL PRESSURE
+
+K_Measure
+	mType = 2
+	Name = CorePress
+	X = 0.929
+	Z = 0.0       
+	Value = 545
+	StdDev =  25.0

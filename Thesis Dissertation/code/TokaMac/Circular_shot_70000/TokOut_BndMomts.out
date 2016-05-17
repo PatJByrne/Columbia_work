@@ -1,0 +1,16 @@
+TokaMac Boundary Moments Output. From Input FileName: TokIn.dat
+    RunName: Shape2. Info: Shape2
+    Run started at Tuesday, May 17, 2016 01:19:57 PM
+    Run was initialized internally.
+    Run ended at   Tuesday, May 17, 2016 01:20:01 PM
+
+First 5 moments of the 0.999 flux surface:
+
+m           Xm          Zm  
+00      0.9084   7.346e-07
+01      0.1545      0.1497
+02  -8.726e-05   4.153e-05
+03    0.002362    0.002484
+04  -1.574e-05  -9.581e-05
+05  -8.025e-05  -4.357e-05
+

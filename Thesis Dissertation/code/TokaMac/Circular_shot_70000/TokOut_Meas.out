@@ -1,0 +1,18 @@
+TokaMac Meas Output. From Input FileName: TokIn.dat
+    RunName: Shape2. Info: Shape2
+    Run started at Tuesday, May 17, 2016 01:19:57 PM
+    Run was initialized internally.
+    The final value of chisq = 0.06128; BoundError = 2.93214e-05
+    The chi-square probability, Q = 0.804484.
+    Run ended at   Tuesday, May 17, 2016 01:20:01 PM
+
+            Name  mType        Value       StdDev          Fit      |Chi|
+ OH_Coil_Current      8   -1.167e+04    5.000e+01   -1.167e+04     0.0000
+ VF_Coil_Current      8   -2.280e+03    5.000e+01   -2.280e+03     0.0065
+ SH_Coil_Current      8    0.000e+00    2.500e+02    1.729e-01     0.0007
+   PlasmaCurrent      9    1.196e+04    3.000e+02    1.196e+04     0.0032
+         MagAxis      1    0.000e+00    5.000e-03    1.236e-03     0.2472
+       CorePress      2    5.450e+02    2.500e+01    5.447e+02     0.0102
+                                                         ---------
+Sum                                                         0.061279995
+

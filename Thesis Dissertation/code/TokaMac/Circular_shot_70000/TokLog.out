@@ -1,0 +1,365 @@
+
+TokaMac Version 2.0b4
+TOKAMAC:    Starting new equilibrium fit using input from TokIn.dat.
+        Start time: Tuesday, May 17, 2016 01:19:57 PM
+INFO:	Initializing current to 11960 (A).
+INFO:   Iterate solution with 21 free and 0 fixed iterations.
+
+        [Free iteration 1]
+INFO:	Finding LH Greens....
+		[Bot]
+		[In]
+		[Out]
+INFO:	Finding Coil Boundary Greens...
+		[OH_Coil]
+		[VF_Coil]
+		[SH_Coil]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=3.21113e-08]
+		[BoundErr = 1]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 6 iterations, MaxRes=3.85264e-06]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.932, Z = 0.000) Psi = 0.00569265]
+		[Axis found at (X = 0.932, Z = 0.000) Psi = 0.00569262]
+		[PsiLim = 0.017276, PsiAxis = 0.005693]
+INFO: Finding Measure Greens...
+              [MagAxis]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0349942, Chisq2 = 0.0301631]
+INFO:	FindJ
+		[Ip = 11959.5 (A)]
+
+        [Free iteration 2]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=4.13043e-08]
+		[BoundErr = 0.00343582]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 5 iterations, MaxRes=3.32186e-07]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.934, Z = 0.000) Psi = 0.00659818]
+		[Axis found at (X = 0.933, Z = 0.000) Psi = 0.00659792]
+		[PsiLim = 0.017234, PsiAxis = 0.006598]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.04793, Chisq2 = 0.0330083]
+INFO:	FindJ
+		[Ip = 11956.3 (A)]
+
+        [Free iteration 3]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.08749e-08]
+		[BoundErr = 0.00175071]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 5 iterations, MaxRes=1.79211e-07]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.934, Z = 0.000) Psi = 0.00695475]
+		[Axis found at (X = 0.934, Z = 0.000) Psi = 0.00695474]
+		[PsiLim = 0.017185, PsiAxis = 0.006955]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0565447, Chisq2 = 0.0421059]
+INFO:	FindJ
+		[Ip = 11954.6 (A)]
+
+        [Free iteration 4]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.86101e-08]
+		[BoundErr = 0.000783648]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 5 iterations, MaxRes=8.22917e-08]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.934, Z = 0.000) Psi = 0.00706937]
+		[Axis found at (X = 0.934, Z = 0.000) Psi = 0.00706909]
+		[PsiLim = 0.017164, PsiAxis = 0.007069]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0605956, Chisq2 = 0.0502653]
+INFO:	FindJ
+		[Ip = 11955.8 (A)]
+
+        [Free iteration 5]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=7.31843e-08]
+		[BoundErr = 0.00026184]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=5.88822e-07]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.00709655]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00709643]
+		[PsiLim = 0.017151, PsiAxis = 0.007096]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0624048, Chisq2 = 0.0561461]
+INFO:	FindJ
+		[Ip = 11957.4 (A)]
+
+        [Free iteration 6]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=7.10708e-08]
+		[BoundErr = 0.000109942]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=3.26466e-07]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.00709867]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00709863]
+		[PsiLim = 0.017144, PsiAxis = 0.007099]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0632234, Chisq2 = 0.0597914]
+INFO:	FindJ
+		[Ip = 11958.2 (A)]
+
+        [Free iteration 7]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.95535e-08]
+		[BoundErr = 5.65168e-05]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=1.70222e-07]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.0070964]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00709639]
+		[PsiLim = 0.017140, PsiAxis = 0.007096]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0635323, Chisq2 = 0.0618247]
+INFO:	FindJ
+		[Ip = 11958.7 (A)]
+
+        [Free iteration 8]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.85531e-08]
+		[BoundErr = 3.02609e-05]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=8.87147e-08]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.00709399]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00709399]
+		[PsiLim = 0.017138, PsiAxis = 0.007094]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0636023, Chisq2 = 0.0628419]
+INFO:	FindJ
+		[Ip = 11958.9 (A)]
+
+        [Free iteration 9]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.80444e-08]
+		[BoundErr = 1.68837e-05]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=4.49956e-08]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.00709232]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00709232]
+		[PsiLim = 0.017137, PsiAxis = 0.007092]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0635487, Chisq2 = 0.0632971]
+INFO:	FindJ
+		[Ip = 11959 (A)]
+
+        [Free iteration 10]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.7692e-08]
+		[BoundErr = 1.13937e-05]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=2.77663e-08]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.00709121]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00709121]
+		[PsiLim = 0.017136, PsiAxis = 0.007091]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0634316, Chisq2 = 0.0634477]
+INFO:	FindJ
+		[Ip = 11959 (A)]
+
+        [Free iteration 11]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.74651e-08]
+		[BoundErr = 1.32826e-05]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=3.05967e-08]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.00709048]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00709048]
+		[PsiLim = 0.017135, PsiAxis = 0.007090]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0632776, Chisq2 = 0.0634378]
+INFO:	FindJ
+		[Ip = 11959 (A)]
+
+        [Free iteration 12]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.72988e-08]
+		[BoundErr = 1.49703e-05]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=3.28129e-08]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.00708995]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00708994]
+		[PsiLim = 0.017135, PsiAxis = 0.007090]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0630995, Chisq2 = 0.0633407]
+INFO:	FindJ
+		[Ip = 11959 (A)]
+
+        [Free iteration 13]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.71595e-08]
+		[BoundErr = 1.66026e-05]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=3.5095e-08]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.00708953]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00708952]
+		[PsiLim = 0.017134, PsiAxis = 0.007090]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.062903, Chisq2 = 0.0631955]
+INFO:	FindJ
+		[Ip = 11959 (A)]
+
+        [Free iteration 14]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.70309e-08]
+		[BoundErr = 1.80068e-05]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=3.71741e-08]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.00708916]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00708916]
+		[PsiLim = 0.017134, PsiAxis = 0.007089]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0626907, Chisq2 = 0.0630187]
+INFO:	FindJ
+		[Ip = 11959 (A)]
+
+        [Free iteration 15]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.69048e-08]
+		[BoundErr = 1.96145e-05]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=3.97001e-08]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.00708881]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00708881]
+		[PsiLim = 0.017133, PsiAxis = 0.007089]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.062463, Chisq2 = 0.0628209]
+INFO:	FindJ
+		[Ip = 11959 (A)]
+
+        [Free iteration 16]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.67817e-08]
+		[BoundErr = 2.09662e-05]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=4.22367e-08]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.00708847]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00708847]
+		[PsiLim = 0.017133, PsiAxis = 0.007088]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0622203, Chisq2 = 0.0626048]
+INFO:	FindJ
+		[Ip = 11959 (A)]
+
+        [Free iteration 17]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.66394e-08]
+		[BoundErr = 2.24797e-05]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=4.48274e-08]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.00708813]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00708812]
+		[PsiLim = 0.017132, PsiAxis = 0.007088]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0619619, Chisq2 = 0.0623735]
+INFO:	FindJ
+		[Ip = 11959 (A)]
+
+        [Free iteration 18]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.64988e-08]
+		[BoundErr = 2.38453e-05]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=4.73938e-08]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.00708776]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00708775]
+		[PsiLim = 0.017131, PsiAxis = 0.007088]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0616871, Chisq2 = 0.0621251]
+INFO:	FindJ
+		[Ip = 11959 (A)]
+
+        [Free iteration 19]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.65317e-08]
+		[BoundErr = 2.56987e-05]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=5.1183e-08]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.00708739]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00708738]
+		[PsiLim = 0.017131, PsiAxis = 0.007087]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.061394, Chisq2 = 0.0618612]
+INFO:	FindJ
+		[Ip = 11959 (A)]
+
+        [Free iteration 20]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.66012e-08]
+		[BoundErr = 2.73949e-05]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=5.4341e-08]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.00708698]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00708697]
+		[PsiLim = 0.017130, PsiAxis = 0.007087]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0610824, Chisq2 = 0.0615792]
+INFO:	FindJ
+		[Ip = 11959 (A)]
+
+        [Free iteration 21]
+INFO:	Computing Psi boundary.
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=6.66801e-08]
+		[BoundErr = 2.93214e-05]
+INFO:	Solving Grad-Shafranov Equation.
+		[After 4 iterations, MaxRes=5.81846e-08]
+INFO:	Plasma Boundary.
+		[PsiMin found at (X = 0.935, Z = 0.000) Psi = 0.00708656]
+		[Axis found at (X = 0.935, Z = 0.000) Psi = 0.00708655]
+		[PsiLim = 0.017129, PsiAxis = 0.007087]
+INFO:	LeastSquares with 6 measurements and 5 unknowns.
+		[ChiSq1 = 0.0607503, Chisq2 = 0.06128]
+INFO:	FindJ
+		[Ip = 11959 (A)]
+
+
+INFO:	Restart file written to hbtep_Restart.bin.
+INFO:	Getting plasma parameters.
+		[Gradient Psi]
+		[Plasma Geometry]
+		[Pressure and magnetic field]
+		[Plasma beta]
+		[Virial Integrals]
+		[Flux profile parameters]
+INFO:   Writing output files.
+
+      TokaMac Finished at Tuesday, May 17, 2016 01:20:01 PM.

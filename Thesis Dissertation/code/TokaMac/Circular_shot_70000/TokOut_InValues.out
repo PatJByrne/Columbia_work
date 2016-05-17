@@ -1,0 +1,89 @@
+TokaMac Values Output. From Input FileName: TokIn.dat
+    RunName: Shape2. Info: Shape2
+    Run started at Tuesday, May 17, 2016 01:19:57 PM
+    Run was initialized internally.
+
+Input Values for run:
+    Fixed, Free Iterations = 0, 21
+    Number of Coils, Shells, Limiters, Seps, Meas = 3, 0, 4, 1, 6
+    LHGreens functions placed in hbtep_LHGreens.bin
+    MeasGreens functions placed in hbtep_MGreen.bin
+    ShellGreens functions placed in hbtep_SGreen.bin
+    Shell inductance matrix placed in hbtep_SInduct.bin
+    Restart file placed in hbtep_Restart.bin
+    Initial Plasma Current = 11960 (A), B0 = 0.319 (T)
+    Initial Current Geometry R0 = 0.929 Z0 = 0.000 a0 = 0.140 (m)
+    Plasma_Std with StdP = 1.700 StdG = 1.700
+    Approximate edge current density = 0 (A/m2)
+    PsiGrid 256 x 256  (0.720 < X < 1.100) (-0.190 < Z < 0.190)
+    PsiGrid is not up-down symmetric.
+    Thresholds for boundary = 1e-06, residual = 1e-08
+    The under relaxation parameters are 0.4, 0.4
+    The NIMROD magnetic axis is not printed on output.
+
+Limiter                     X1        Z1        X2        Z2   On/Off
+              TopLim     0.861     0.150     1.079     0.150   1
+              BotLim     0.861    -0.150     1.079    -0.150   1
+              RadLim     1.072     0.000     1.072     0.110   1
+            InRadLim     0.751     0.000     0.751     0.110   1
+
+Separatrix                  X1        Z1        X2        Z2   On/Off
+            InnerSep     0.740     0.010     0.810     0.100   1
+
+Coil Set OH_Coil On/Off = 1 Coil Current = -11670 (A)
+    SubCoil                  X         Z          Fract
+                OHT1     0.660     0.701         1.0000
+                OHT2     0.640     0.719         1.0000
+                 OH1     0.257     0.300         1.0000
+                 OH2     0.257     0.215         1.0000
+                 OH3     0.257     0.129         1.0000
+                 OH4     0.257     0.043         1.0000
+                 OH5     0.257    -0.043         1.0000
+                 OH6     0.257    -0.129         1.0000
+                 OH7     0.257    -0.215         1.0000
+                 OH8     0.257    -0.300         1.0000
+                OHB1     0.660    -0.701         1.0000
+                OHB2     0.640    -0.719         1.0000
+
+Coil Set VF_Coil On/Off = 1 Coil Current = -2280 (A)
+    SubCoil                  X         Z          Fract
+                VFT1     1.590     0.665         1.0000
+                VFT2     1.590     0.635         1.0000
+                VFT3     1.550     0.665         1.0000
+                VFT4     1.550     0.635         1.0000
+               VFin1     0.257     0.452        -1.0000
+               VFin2     0.257     0.433        -1.0000
+               VFin3     0.257     0.414        -1.0000
+               VFin4     0.257     0.395        -1.0000
+               VFin5     0.257     0.376        -1.0000
+               VFin6     0.257     0.357        -1.0000
+                VFB1     1.590    -0.665         1.0000
+                VFB2     1.590    -0.635         1.0000
+                VFB3     1.550    -0.665         1.0000
+                VFB4     1.550    -0.635         1.0000
+              VFin1b     0.257    -0.452        -1.0000
+              VFin2b     0.257    -0.433        -1.0000
+              VFin3b     0.257    -0.414        -1.0000
+              VFin4b     0.257    -0.395        -1.0000
+              VFin5b     0.257    -0.376        -1.0000
+              VFin6b     0.257    -0.357        -1.0000
+
+Coil Set SH_Coil On/Off = 1 Coil Current = 0 (A)
+    SubCoil                  X         Z          Fract
+                 SH1     0.679     0.056        -1.0000
+                 SH2     0.682     0.069        -1.0000
+                 SH3     0.704     0.124         1.0000
+                 SH4     0.710     0.136         1.0000
+                 SH5     0.692     0.130         1.0000
+                 SH6     0.698     0.142         1.0000
+                 SH7     0.739     0.187        -1.0000
+                 SH8     0.748     0.198        -1.0000
+
+Measurements         mType     Value    StdDev         X        Z
+     OH_Coil_Current     8  -1.2e+04        50
+     VF_Coil_Current     8  -2.3e+03        50
+     SH_Coil_Current     8         0   2.5e+02
+       PlasmaCurrent     9   1.2e+04     3e+02
+             MagAxis     1         0     0.005     0.929     0.000     0.000
+           CorePress     2   5.4e+02        25     0.929     0.000
+

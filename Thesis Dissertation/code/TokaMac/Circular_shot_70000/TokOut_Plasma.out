@@ -1,0 +1,33 @@
+Plasma Output. From Input FileName: TokIn.dat
+    RunName: Shape2. Info: Shape2
+    Run started at Tuesday, May 17, 2016 01:19:57 PM
+    Run was initialized internally.
+    Run ended at   Tuesday, May 17, 2016 01:20:01 PM
+
+Geometry:
+    Magnetic axis (x, z) = (0.935076, 3.45837e-07)
+    Current centroid R = 0.928298 (m), RCenter = 0.908516 (m)
+    RStar = 0.907319, RSurfaceAvg = 0.908352, MinorHalfWidth = 0.157344
+    Volume = 0.415755 (m3), Perimeter = 0.957312 (m).
+
+Energy and beta:
+    Plasma current 11959 (A), Diamagnetic flux -1.99482e-05 (weber)
+    beta poloidal = 1.75666, li = 0.877705, mu = 0.724492
+    Volume-averaged beta = 0.00405531. BetaN = 1.74041
+    Safety factor: q0 is 1.64978; q at the 0.999 flux surface is 3.87007
+    Circular q is 3.71633, and qStar is 3.48818.
+    Total stored kinetic energy = 107.419 (J)
+    Total stored magnetic energy = 35.781 (J)
+
+Virial Outputs:
+    R_vr = 0.922336 (m), Alpha_vr = 0.962236
+    S1 = 2.10858, S2 = 3.3162, S3 = 1.06889
+    Lambda = 2.19785, betap(perp) = 1.75356
+    li(mu) = 0.88859, li(alpha) = 1.05446
+
+Plasma model:
+    Plasma_Std with StdP = 1.700 StdG = 1.700
+
+FluxF           0         1         2         3         4         5         6         7
+    G2p         0     0.927         0         0         0         0         0         0
+     Pp         0    -0.116         0         0         0         0         0         0
