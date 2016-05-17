@@ -4,10 +4,12 @@
 \paragraph{} The shaping coil is a single continuous piece of 1/0 welding cable, run eight times toroidally between the inner ring of the toroidal field magnet cases and the vacuum vessel.  This ex-vessel coil is located slightly above the midplane, mainly due to space limitations.  Were there complete freedom of placement, the coil would likely be placed nearer the midplane, as we have active (pre-programmed) control of the plasma's radial location, but vertical location control is only passively provided by eddies in the conducting vessel walls and shells.  Further, placing the coil at the midplane would locate it closer the the plasma, increasing coupling and reducing the current requirements for any given shape
 \subsubsection{Leads \& Bundle Connections} 
 The construction of the coil out of a single conductor was accomplished through directing the conductor from one bundle to another once the number of required turns had been wound.  This necessitated a poloidal run of wire to connect the two.  At the end of the final bundle, the out-lead cable had to travel poloidally once again to meet the in-lead before becoming a twisted pair.  These non-toroidal runs of current were canceled to the best of our ability by running the return lead back at the same location as the poloidal leads connecting each bundle.  Though the thickness of the cable and the tight spaces involved precluded winding these contrary wires, they were connected with zip ties to ensure as good a canceling as possible.  See Figure 1 for a schematic of the windings and location of the leads.\\
+
 \begin{figure}
 \includegraphics[width = \textwidth]{./figures/Coil_winding_schematic.png}\begin{flushleft}
 \caption{Schematic of the current direction, inter-bundle connections and coil leads, as seen by an observer between the vacuum vessel's inboard side and the coil.  The toroidal direction is left/right, poloidal is up/down.}
 \end{flushleft}
+
 \label{coil_winding}
 \end{figure}
 The twisted pair from the power supply rises from the laboratory basement, splits with one lead breaking into the lowest turn, and the other breaking out of the highest turn.  The top lead is therefore unshielded for roughly 8 inches.  There are two points at which the cable is bent back upon itself to begin a new bundle and reverse the direction of the current.  This occurs at the same toroidal location, which is itself the same location as the leads.  The current in the leads travels in the opposite direction from the current in the jumps between bundles.  The lead is thus lashed to the the interbundle connections to both reduce the error fields, and prevent the $\vec{j} X \vec{B}$ forces on the cables from causing damage to the coil insulation.
@@ -61,7 +63,7 @@ $\kappa_u$ & Upper Elongation & $a/(R_{min}-R_{geo})$ \\
 \hline
 $\kappa_d$ & Lower Elongation & $a/(R_{geo}-R_{max})$ \\ 
 \hline
-$\delta_u$ & Upper Triangularity & $(Z_{R_{max} - Z_{off})/a$ \\ 
+$\delta_u$ & Upper Triangularity & $(Z_{R_{max}} - Z_{off})/a$ \\ 
 \hline
 $\delta_d$ & Lower Triangularity & $(Z_{R_{min}}-Z_{off})/a$ \\ 
 \hline
@@ -72,6 +74,15 @@ $\delta_d$ & Lower Triangularity & $(Z_{R_{min}}-Z_{off})/a$ \\
 
 For the purposes of this research, the roles of $R_{geo}$, the geometric major radius, and $Z_{off}$, the vertical midplane, have been transposed.  $R_{geo}$ is further calculated using the top and bottom locations of the plasma, rather than the inner- and outer-most locations.  This is due to the fact that, unlike most other diverted Tokamaks, HBT-EP's X-point does not define an extrema in the Z-direction, but rather in the R-direction.  Using the definitions laid out in \cite{Luce}, we would have unrepresentative numbers for $R_{geo}$, a, $\delta_u$, $\kappa_u$.  By using the definitions listed in Table \ref{Shaping Deets}, we derive values that are similar in both sign and magnitude to what would naively be expected by someone experienced in plasma shaping.\paragraph{•}
 The plot below shows a circular HBT-EP plasma, and a diverted plasma, with similarly located current centroids.  The locations referenced in Table \ref{Shaping Deets} are shown.  As can be seen, the X-point defines R$_{min}$ as opposed to Z$_{max}$, which would be most common among other diverted Tokamaks.  This is what motivates the modification of the existing definitions.\paragraph{}
+
+
+\begin{figure}
+\includegraphics[width = \textwidth]{./figures/Circular_and_diverted_shape_for_elong_triang.png}\begin{flushleft}
+\caption{}
+\end{flushleft}
+\label{new_limiters}
+\end{figure}
+
 Table \ref{Shaping_params_C_and_D} shows the values of major and minor radii, and upper and lower triangularity and elongation for both plasmas, using both methods. As can be seen, the choice of methods has little effect on the circular plasma, and for the diverted plasma, we see that the major and minor radii have more reasonable values, the horizontal oblateness of the plasma is better represented, and that upper triangularity is large and positive, as would be expected, using the modified equations.
 
 
@@ -91,7 +102,7 @@ $\kappa_u$ & Upper Elongation & $a/(R_{min}-R_{geo})$ \\
 \hline
 $\kappa_d$ & Lower Elongation & $a/(R_{geo}-R_{max})$ \\ 
 \hline
-$\delta_u$ & Upper Triangularity & $(Z_{R_{max} - Z_{off})/a$ \\ 
+$\delta_u$ & Upper Triangularity & $(Z_{R_{max}} - Z_{off})/a$ \\ 
 \hline
 $\delta_d$ & Lower Triangularity & $(Z_{R_{min}}-Z_{off})/a$ \\ 
 \hline
